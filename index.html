@@ -24,5 +24,21 @@
         <li>📄 <a href="#" target="_blank">My CV</a></li>
         <li>📅 <a href="#" target="_blank">Book a Meeting</a></li>
     </ul>
+    <section id="contact" style="padding: 40px; font-family: sans-serif;">
+  <h2>Get in Touch</h2>
+  <p>Have a question or want to work together? Send a message below:</p>
+  
+  <!-- استبدل YOUR_FORM_ID بكود الفورم الخاص بك بعد التسجيل المجاني على Formspree -->
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display: flex; flex-direction: column; max-width: 400px; gap: 15px;">
+    
+    <label for="email" style="font-weight: bold;">Your Email:</label>
+    <input type="email" id="email" name="email" required placeholder="name@example.com" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    
+    <label for="message" style="font-weight: bold;",>Your Message:</label>
+    <textarea id="message" name="message" required rows="4" placeholder="Write your message here..." style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+    
+    <button type="submit" style="background: #000; color: #fff; padding: 12px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">Send Message</button>
+  </form>
+</section>
 </body>
 </html>
